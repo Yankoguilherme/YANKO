@@ -1,0 +1,252 @@
+/* Estilos Gerais */
+
+body {
+  /* mudar a familia da fonte */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  /* pegar toda tela*/
+  max-width: 100%;
+}
+
+/* Header */
+
+.header {
+  position: fixed;
+  top: 0;
+  /*pegar vtoda tela*/
+  width: 100%;
+  /*mudar a cor da letra*/
+  background: #223759;
+  /* mudar posicsao*/
+  padding: 15px 0;
+
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  /*mudar a posicao para ir para*/
+  margin-left: 25px;
+  /* mudar a borda*/
+  margin-top: 30px;
+}
+
+.header_menu ul li a {
+  color: #ecc601;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  /*MUUDAR A COR*/
+  color: #fff;
+}
+
+.header_menu ul li a.menu_ativo {
+  /*MUDAR A COR*/
+  color: #fff;
+}
+
+.logotipo_escola {
+  /* MUDAR A POSICSO*/
+  margin-left: 0px;
+}
+
+.logotipo_escola img {
+  /* MUDAR A BORDA*/
+  border-radius: 50px;
+
+  width: auto;
+  height: 80px;
+}
+
+/* Introdução */
+
+.introducao {
+
+  width: 100%;
+  height: 480px;
+  /* MUDAR A COR DA IMAGEM*/
+  background: url('../img/fundo-intro.png') no-repeat center;
+  /* MUDAR COR DA LETRA */
+  background-size: cover;
+  /* MUDAR POSICAO*/
+  margin-top: 110px;
+  padding-top: 80px;
+}
+
+.text-intro {
+  width: auto;
+  height: 360px;
+  padding: 0 10px;
+  /* MUDAR COR  DA LETRA*/
+  background: rgba(103, 125, 160, 0.75);
+  /*BORDAS*/
+  border-radius: 10px;
+  /* MUDAR A COR*/
+  box-shadow: 1px 1px 4px #223759;
+  text-align: center;
+}
+
+.text-intro h2 {
+  padding: 20px 20px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  color: #ecc601;
+}
+
+.text-intro p {
+  padding: 20px 20px 30px 0px;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ecc601;
+}
+
+.img-intro {
+  width: 360px;
+  height: 360px;
+  padding: 0 10px;
+  background: url(../img/img-intro.jpg);
+  background-size: cover;
+  box-shadow: 1px 1px 4px #223759;
+  border-radius: 10px;
+}
+
+.informativo {
+  width: 100%;
+  background: #f2f2f2;
+  text-align: center;
+
+  padding: 60px 0;
+}
+
+.informativo .subtitulo {
+  /* mudar cor */
+  color: #223759;
+  /*
+  font-weight: bold;
+  /*para baixo ou para cima*/
+  font-size: 36px;
+  /* formado */
+  line-height: 40px;
+}
+
+.informativo_lista li {
+
+  width: 100%;
+  height: auto;
+  /*mudar posicao para cima*/
+  margin: 30px auto;
+}
+
+.informativo_lista li img {
+
+  margin: 0 auto;
+  /*
+  box-shadow: 1px 1px 4px #cccccc;
+}
+
+.hide {
+  display: none;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  /*bota cor na palavra*/
+  background: #223759;
+  /* botar cor */
+  color: #fff;
+  /*mudar posicao pra baixo*/
+  padding: 20px 0;
+}
+
+.footer h3 {
+  /* mudar posicao para cima ou baixo */
+  font-size: 18px;
+
+  line-height: 25px;
+  /* botar cor */
+  color: #ecc601;
+  
+  text-transform: uppercase;
+
+  letter-spacing: 0.05em;
+
+  font-weight: bold;
+}
+
+.footer_contato ul li {
+  /* mudar a posicao para baixo ou pra cima*/
+  font-size: 14px;
+
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.footer_redes ul li {
+
+  display: inline-block;
+  /* mudar a posicao da formar*/
+  margin-right: 10px;
+}
+
+.footer_redes ul li a {
+
+  border: 3px solid #ecc601;
+  /*mudar a posicao*/
+  padding: 10px;
+}
+
+.footer_redes ul li a:hover {
+  /*colocar cor */
+  border-color: rgb(19, 16, 16);
+}
+
+.copy {
+  /*troca a familia da fonte*/
+  font-family: Arial, Helvetica, sans-serif;
+  /* fica a tela inteira*/
+  width: 100%;
+  /* cor do fundo */
+  background: #ecc601;
+  /* mudar a posicao*/
+  padding: 10px 0;
+}
+
+/* Altera a fonte do rodapé*/
+.copy p {
+  /* deixa a fonte grosa*/
+  font-weight: bold;
+  /*troca a familia da fonte*/
+  font-family: Arial, Helvetica, sans-serif;
+  /*mudar a cor da fonte*/
+  color: #223759;
+}
